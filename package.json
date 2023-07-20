@@ -1,0 +1,30 @@
+{
+  "name": "peertube-plugin-fs1",
+  "version": "0.0.1",
+  "description": "FS1 logo on PeerTube.",
+  "engine": {
+    "peertube": ">=1.3.0"
+  },
+  "keywords": [
+    "peertube",
+    "plugin",
+    "fs1"
+  ],
+  "homepage": "https://github.com/biowilli/peertube-plugin-fs1",
+  "author": "biowilli",
+  "bugs": "https://github.com/biowilli/peertube-plugin-fs1/issues",
+  "library": "./main.js",
+  "staticDirs": {
+    "images": "public/images"
+  },
+  "css": [
+    "assets/logo.css"
+  ],
+  "clientScripts": [
+    {
+      "script": "client/common-client-plugin.js",
+      "scopes": [ "common" ]
+    }
+  ],
+  "translations": {}
+}
